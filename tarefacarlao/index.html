@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>PokesDex do Carlao</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap"
+      rel="stylesheet"/>
+    <link rel="stylesheet" href="/CSS/estilos.css" />
+    <script src="js/script.js" defer></script>
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="container">
+        <img src="./imagens/pokemon_logo.png"class="pokemon__logo"/>
+        
+         
+      </div>
+      <input type="text" id="entrada" placeholder="Digite o pokémon...">
+          <button onclick="buscar()">Pesquisar</button>
+    </header>
+  
+    <main class="main">
+      <div class="container">
+        <section class="pokesmon">
+          <div class="pokebola">
+            <img src="./imagens/pokebola.png" class="pokebola__image" onclick="getPokemon()"/>
+          </div>
+          <div class="pokemon"></div>
+        </section>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <p class="footer__text">
+         <p>Desenvolvido por le e luzia</p>
+       
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
